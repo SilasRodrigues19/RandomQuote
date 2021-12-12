@@ -1,0 +1,23 @@
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexCenter2($justify-content) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+}
+
+@mixin backgroundBefore() {
+    position: absolute;
+    opacity: .1;
+    background: url('https://circuitodepraiarl.com.br/wp-content/uploads/2017/02/praia-amanhecer-wallpaper.jpg');
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
