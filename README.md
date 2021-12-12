@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Preview][product-screenshot]](https://github.com/SilasRodrigues19/RandomQuote)
+[![Preview][product-screenshot]](https://random-quote-two.vercel.app)
 
 This project was made during a Coding Nepal Channel Tutorial on YouTube
 
