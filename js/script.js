@@ -3,7 +3,9 @@ const quoteText = document.querySelector('.quote'),
     quoteBtn = document.querySelector('#quoteBtn'),
     soundBtn = document.querySelector('.sound'),
     copyBtn = document.querySelector('.copy'),
-    twitterBtn = document.querySelector('.twitter');
+    twitterBtn = document.querySelector('.twitter'),
+    quote = quoteText.innerText,
+    author = authorName.innerText;
 
 randomQuote = () => {
     quoteBtn.classList.add("loading");
@@ -17,7 +19,7 @@ randomQuote = () => {
 }
 
 soundBtn.addEventListener('click', () => {
-    let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText} by ${authorName.innerText}`);
+    let utterance = new SpeechSynthesisUtterance(`${quote} by ${author}`);
     speechSynthesis.speak(utterance);
 });
 
