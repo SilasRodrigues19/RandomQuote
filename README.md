@@ -10,7 +10,7 @@
 <samp>
 <p align="center">
   <a href="https://github.com/SilasRodrigues19/RandomQuote">
-    <img src="https://appmasters.io/static/react-47ce6e77f039020ee2e76a10c1e988e9.png" alt="Logo" width="80" height="80">
+    <img src="https://mpng.subpng.com/20191124/swe/transparent-signs-icon-quote-icon-quotation-mark-icon-5ddb1caeb81c83.6151332015746408147541.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RandomQuote</h3>
@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Preview][product-screenshot]](https://github.com/SilasRodrigues19/RandomQuote/blob/master/public/preview.png?raw=true)
+[![Preview][product-screenshot]](https://github.com/SilasRodrigues19/RandomQuote)
 
 This project was made during a Coding Nepal Channel Tutorial on YouTube
 
@@ -106,7 +106,7 @@ Project Link: [https://github.com/SilasRodrigues19/RandomQuote](https://github.c
 [issues-url]: https://github.com/SilasRodrigues19/RandomQuote/issues
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/RandomQuote.svg?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/RandomQuote/blob/master/LICENSE
-[product-screenshot]: https://github.com/SilasRodrigues19/RandomQuote/blob/master/public/preview.png?raw=true
+[product-screenshot]: ./img/preview.png
 [license-url]: https://github.com/SilasRodrigues19/RandomQuote/blob/master/LICENSE
 
 <br><hr>
