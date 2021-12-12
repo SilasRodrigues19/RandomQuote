@@ -10,7 +10,7 @@
 <samp>
 <p align="center">
   <a href="https://github.com/SilasRodrigues19/RandomQuote">
-    <img src="https://mpng.subpng.com/20191124/swe/transparent-signs-icon-quote-icon-quotation-mark-icon-5ddb1caeb81c83.6151332015746408147541.jpg" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/OOjs_UI_icon_quotes-ltr-progressive.svg/1200px-OOjs_UI_icon_quotes-ltr-progressive.svg.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RandomQuote</h3>
