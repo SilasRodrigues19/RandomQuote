@@ -9,8 +9,11 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Encode+Sans+Semi+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6.3.7/animations/shift-away.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/tippy.css" integrity="sha512-wYhtIFU+mDV48662uSmS8BA6uIuSRXB15B014+WdZgtU1Umfn/v8+Yq3hidRunKqTBmhBijyyuqSzCxmj6KlTg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -51,7 +54,31 @@
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="./js/script.js"></script>
+    <script>
+        tippy('.copy', {
+            content: 'Copy to clipboard',
+            animation: 'shift-away',
+            theme: 'lightblue',
+        });
+        tippy('.sound', {
+            content: 'Listen to the quote',
+            animation: 'shift-away',
+            theme: 'lightblue',
+        });
+        tippy('.twitter', {
+            content: 'Share on Twitter',
+            animation: 'shift-away',
+            theme: 'lightblue',
+        });
+        tippy('#quoteBtn', {
+            content: 'Change Quote',
+            animation: 'shift-away',
+            theme: 'lightblue',
+        });
+    </script>
 </body>
 
 </html>

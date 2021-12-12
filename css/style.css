@@ -37,7 +37,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 body {
@@ -51,6 +51,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 16px;
+  font-weight: 300;
   min-height: 100vh;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
@@ -71,7 +72,7 @@ body {
 
 .wrapper header {
   font-size: 2.1rem;
-  font-weight: 600;
+  letter-spacing: .3rem;
   text-align: center;
 }
 
@@ -87,11 +88,11 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 1.25rem;
-  font: italic 1.1rem / 1rem sans-serif;
+  font: italic 300 1.1rem / 1rem sans-serif;
 }
 
 .wrapper .author .iconify {
-  margin: .1rem .6rem;
+  margin: 0 .6rem;
 }
 
 .wrapper .quote-area {
@@ -199,5 +200,14 @@ body {
 .wrapper .features button.loading {
   opacity: .1;
   pointer-events: none;
+}
+
+.tippy-box[data-theme~='lightblue'] {
+  background-color: #adbce6;
+  color: #fff;
+}
+
+.tippy-box[data-placement^="top"] > .tippy-arrow:before {
+  border-top-color: #adbce6;
 }
 /*# sourceMappingURL=style.css.map */

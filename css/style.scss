@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 body {
     @include flexCenter;
     font-size: 16px;
+    font-weight: 300;
     min-height: 100vh;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
@@ -27,7 +28,7 @@ body {
     padding: 1.8rem 1.8rem 1.5rem;
     header {
         font-size: 2.1rem;
-        font-weight: 600;
+        letter-spacing: .3rem;
         text-align: center;
     }
     .content {
@@ -37,9 +38,9 @@ body {
         display: flex;
         justify-content: flex-end;
         margin-top: 1.25rem;
-        font: italic 1.1rem / 1rem sans-serif;
+        font: italic 300 1.1rem / 1rem sans-serif;
         .iconify {
-            margin: .1rem .6rem;
+            margin: 0 .6rem;
         }
     }
     .quote-area {
@@ -108,4 +109,13 @@ body {
             pointer-events: none;
         }
     }
+}
+
+.tippy-box[data-theme~='lightblue'] {
+    background-color: $primaryColor;
+    color: #fff;
+}
+
+.tippy-box[data-placement^="top"]>.tippy-arrow:before {
+    border-top-color: $primaryColor;
 }
